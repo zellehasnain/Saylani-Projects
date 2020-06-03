@@ -169,10 +169,14 @@ body{
     transition: ease-in-out .2s;
 }
 
+.main-heading{
+    margin: 5rem;
+}
+
 /* Gallery */
 
 .gall {
-    margin: 10rem;
+    margin: 10rem auto;
 }
 .gal{
     margin: 20px 0px;
@@ -192,7 +196,7 @@ body{
 .abt-1{
     margin: 10rem auto;
 }
-.abt-1 h1{
+.abt-name{
     margin: 20px;
     text-decoration: underline;
 }
@@ -206,4 +210,39 @@ body{
     background-color: #39036b;
     border-radius: 20px;
     padding: 20px;
+}
+/* Contact Us */
+
+.contact{
+    margin: 10rem auto;
+    
+}
+
+/* Thanks */
+
+.thanks-con{
+    margin: 10rem auto;
+}
+.req-sub{
+    margin: 10px auto 20px auto;
+}
+
+.go-back a{
+    padding: 10px;
+    background-color: rgb(253, 201, 59);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 3) 10px 5px 10px;
+    font-size: 15px;
+}
+.go-back a:hover{
+    color: black !important;
+    text-decoration: none;
+    font-size: 25px;
+    transition: linear 1s ;
+}
+
+/* Career */
+
+.career{
+    margin: 10rem auto;
 }

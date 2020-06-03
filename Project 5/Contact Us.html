@@ -50,16 +50,67 @@
                     </form> -->
         </div>
     </nav>
-
-    <div class="container-fluid">
+    <div class="container-fluid contact">
         <div class="container">
-            <div class="form-group">
-                <label for=""></label>
-                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                <small id="emailHelpId" class="form-text text-muted">Help text</small>
-            </div>
+            <h1 class="display-3 text-center main-heading">Contact Us</h1>
+            <form method="GET" action="Thanks.html">
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" value=""
+                            placeholder="First Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault02">Last name</label>
+                        <input type="text" class="form-control" id="validationDefault02" value=""
+                            placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form-row align-items-center">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault05">Mobile No</label>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="validatedInputGroupPrepend">+92</span>
+                            <input type="number" class=" form-control" id="validationDefault05"
+                                placeholder="331-123-4567" maxlength="10" minlength="10" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault03">City</label>
+                        <input type="text" class="form-control" id="validationDefault03" placeholder="Karachi" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault05">What Do You Prefer ?</label>
+                        <br>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                class="custom-control-input " required>
+                            <label class="custom-control-label" for="customRadioInline1">Call</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">SMS</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline1"
+                                class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline3">Whatsapp</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-group">
+                        <label for="txt-msg">Please Enter Your Message</label>
+                        <textarea class="form-control" name="" id="txt-msg" rows="3"
+                            placeholder="Please Enter Your Query Here...."></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-warning btn-outline-dark" type="submit">Submit form</button>
+            </form>
         </div>
     </div>
+
     <div class="container-fluid text-light ftr">
         <!-- <div class="container"> -->
         <div class="row justify-content-around">
