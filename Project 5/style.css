@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    font-family: 'Architects Daughter', cursive;
+}
 /* *{
     box-sizing: border-box !important;
     margin: 0 !important;
     padding: 0 !important;
 } */
+.container{
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+}
+
 body{
     background-color: rgb(240, 224, 80) !important;
 }
@@ -217,7 +227,17 @@ body{
     margin: 10rem auto;
     
 }
-
+.contact .container{
+    text-align: left;
+}
+/* Career */
+.career{
+    margin: 10rem auto;
+    
+}
+.career .container{
+    text-align: left;
+}
 /* Thanks */
 
 .thanks-con{
