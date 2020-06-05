@@ -27,7 +27,7 @@ body{
 }
 .navbar-dark .navbar-toggler{
     border-color:rgb(255, 255, 255) !important;
-    border: 2px solid;
+    border: 2px solid !important;
 }
 @media only screen and (max-width: 600px) {
     .navbar-brand{
