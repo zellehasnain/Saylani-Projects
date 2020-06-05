@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 *{
     font-family: 'Architects Daughter', cursive;
+    /* text-emphasis: nowrap; */
 }
 /* *{
     box-sizing: border-box !important;
@@ -17,10 +18,11 @@ body{
     background-color: rgb(240, 224, 80) !important;
 }
 .navbar-brand{
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 .logo-txt{
-    padding-left: 10px;
+    font-size: 1rem;
+    /* padding-left: 10px; */
     color: yellow !important;
 }
 .car-cap1{
@@ -101,6 +103,9 @@ body{
 .ftr{
     padding: 2rem;
     background-color: rgb(27, 27, 27);
+}
+.ftr .start,.ftr .mid ,.ftr .end{
+    margin-top: 2rem;
 }
 .ftr .start p {
     margin: .1em;
