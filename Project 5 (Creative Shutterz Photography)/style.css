@@ -17,26 +17,32 @@
 body{
     background-color: rgb(240, 224, 80) !important;
 }
-.navbar-brand{
-    /* padding-left: 10px; */
+.navbar-brand img{
+    height:3em;
 }
 .logo-txt{
     font-size: 1rem;
     /* padding-left: 10px; */
     color: yellow !important;
 }
-.car-cap1{
-    background-color: #fd10109d;
-    border-radius: 90px 10px;
+.navbar-dark .navbar-toggler{
+    border-color:rgb(255, 255, 255) !important;
+    border: 2px solid;
 }
-.car-cap2{
-    background-color: #88a0009d;
-    border-radius: 90px 10px;
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        padding: auto 0px;
+    }
+    .logo-txt {
+    font-size: .7rem;
+    }
+    /* .carousel {
+    margin: 5rem auto auto auto !important;
+    } */
 }
-.car-cap3{
-    background-color: #f510fd9d;
-    border-radius: 90px 10px;
-}
+/* .carousel{
+    margin: 5rem auto auto auto;
+} */
 .nav-item:hover .nav-link{
     background-color: yellow !important;
     color: black !important;
