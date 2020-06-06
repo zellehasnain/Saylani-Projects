@@ -4,7 +4,7 @@
     font-family: 'Architects Daughter', cursive;
     /* text-emphasis: nowrap; */
 }
-p , a ,.form-row input,.form-row label,.form-row span, .btn-warning, .ftr b{
+p , a ,.form-row input,.form-row label,.form-row span, .btn-warning, .ftr b, .form-group,.form-group label{
    font-family: 'Lato', sans-serif !important; 
 }
 /* *{
