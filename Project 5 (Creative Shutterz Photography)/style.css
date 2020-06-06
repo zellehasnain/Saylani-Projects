@@ -232,6 +232,9 @@ body{
     border-radius: 20px;
     padding: 20px;
 }
+.mr-abt,.zh-abt{
+    margin-top: 5rem;
+}
 /* Contact Us */
 
 .contact{
