@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     font-family: 'Architects Daughter', cursive;
     /* text-emphasis: nowrap; */
+}
+p , a ,.form-row input,.form-row label,.form-row span, .btn-warning, .ftr b{
+   font-family: 'Lato', sans-serif !important; 
 }
 /* *{
     box-sizing: border-box !important;
@@ -15,7 +19,7 @@
 }
 
 body{
-    background-color: rgb(240, 224, 80) !important;
+    background-color: rgb(245, 233, 128) !important;
 }
 .navbar-brand img{
     height:3em;
@@ -39,6 +43,22 @@ body{
     /* .carousel {
     margin: 5rem auto auto auto !important;
     } */
+    .box p{
+        font-size: 0.6rem;
+    }
+    .ftr .start ,.ftr .mid , .ftr .end{
+        font-size: .7rem;
+    }
+    .ftr .end .icon{
+        text-align: center !important;
+    }
+    .ftr .end p{
+        margin-left: 0px !important;
+    }
+    .main-heading{
+        font-size:3rem ;
+    }
+    
 }
 /* .carousel{
     margin: 5rem auto auto auto;
@@ -74,7 +94,7 @@ body{
 }
 .box p{
     font-weight: bold !important;
-    font-size: 1.25em;
+    font-size: 1rem;
     margin: 0px;
 }
 .sec3{
@@ -93,17 +113,21 @@ body{
     border-radius: 10px;
 }
 .pack:hover{
-    background-color: rgba(253, 201, 59, 1);
+    background-color: rgba(255, 196, 0, 0.363);
     transition: ease-in-out 1s;
     box-shadow: rgba(0, 0, 0, 0.596) 15px 10px 10px;
 }
 .pack h1{
     margin-top: 20px;
+    color: #39036b;
+    font-weight: bold;
+    font-size:2rem ;
 }
 .pack p{
     text-align: justify;
     text-transform: capitalize;
     font-weight: 600;
+    color: rgb(104, 105, 105);
 }
 
 .ftr{
@@ -191,7 +215,7 @@ body{
 }
 
 .main-heading{
-    margin: 5rem;
+    margin: 5rem auto;
 }
 
 /* Gallery */
